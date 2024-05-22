@@ -2,25 +2,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 import './styles.css'
+import Navbar from '../Navbar/Navbar';
 
 
-function Navbar() {
-    return (
-        <nav className="navbar">
-            <ul style={{ fontSize: 'large' }}>
-                <li><Link to="/home"><strong>Home</strong></Link></li>
-                <li><Link to="/dashboard"><strong>Dashboard</strong></Link></li>
-                <li><Link to="/contact"><strong>Contact</strong></Link></li>
-                <li><Link to="/about"><strong>About Us</strong></Link></li>
-            </ul>
-        </nav>
-    );
-}
 
 function Home() {
     return (
         <>
-            <Navbar />
+            <Navbar></Navbar>
         <div className='main-Home'>
             {/* Content for Home page */}
             {/* <h1>Welcome to Home Page</h1> */}
@@ -73,7 +62,7 @@ function Home() {
                 
 
             </div>
-            <div className='FAQ' data-aos="zoom-in-up" data-aos-duration="2500">
+            <div className='FAQ' data-aos="zoom-in-up" data-aos-duration="1500">
                 <h1>FAQs</h1>
                 <p className='first-para'>Get answers to common questions about ParkEase Hub and how it can benefit your parking management.</p>
                 <div className='question-start'>

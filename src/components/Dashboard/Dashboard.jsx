@@ -54,7 +54,7 @@ function Dashboard() {
               <p>Age:{userAge}</p>
             </div>
             <div className="detail">
-            <p><strong>Number:-</strong> {uservehicleNumber}</p>
+            <p><strong>Vehicle Number:-</strong> {uservehicleNumber}</p>
             <p><strong>Email:-</strong> {useremail}</p>
             <p><strong>Contact No:-</strong> {usercontactNumber}</p>
             <p><strong>address:-</strong> {useraddress}</p>
